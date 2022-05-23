@@ -1,0 +1,206 @@
+
+
+
+
+h1{
+    
+    color: rgb(255, 255, 255);
+   
+}
+h2{
+    color:red;
+}
+
+
+.tony{
+    position: absolute;
+    background-size: contain;
+    box-shadow: 10px 10px 10px rgb(189, 170, 3);
+    top: 550px;
+    left:5px;
+    width: 150px;
+    height: 300px;
+    background-image: url(iron.jpeg);
+    background-repeat: no-repeat;
+    border: 2px solid red;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 25px;
+    
+       
+}
+
+.captain{
+    position:absolute;
+    top:550px;
+    left:230px;
+    background-image: url(cap.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 150px;
+    height: 300px;
+    border: 2px solid red;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 25px;
+ 
+    box-shadow: 10px 10px 10px rgb(20, 163, 220);
+  
+}
+.thor{
+    position: absolute;
+    top:550px;
+    left:450px;
+    background-image: url(thor.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 150px;
+    height: 300px;
+    border: 2px solid red;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 25px;
+    box-shadow: 10px 10px 10px rgb(231, 111, 13);
+}
+.hulk{
+    position:absolute;
+    top:550px;
+    left:670px;
+    background-image: url(hulk.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 150px;
+    height: 300px;
+    border: 2px solid red;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 25px;
+    
+    box-shadow: 10px 10px 10px rgb(100, 220, 20);
+}
+.hawkeye{
+    position:absolute;
+    top:550px;
+    left:890px;
+    background-image: url(hawk.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 150px;
+    height: 300px;
+    border: 2px solid red;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 25px;
+    
+    box-shadow: 10px 10px 10px rgb(90, 20, 220);
+}
+.blackwidow{
+    position: absolute;
+    top:550px;
+    left:1115px;
+   background-image: url(black.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 150px;
+    height: 300px;
+    border: 2px solid red;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 25px;
+    box-shadow: 10px 10px 10px rgb(220, 20, 20);
+}
+
+
+.hey{
+    
+    position: absolute;
+    top:1000px;
+    color: rgb(255, 255, 255);
+    width:1350px;
+  
+   
+} 
+.blue{
+    background-color: rgb(22, 87, 112);
+    left :150px;
+    border-radius: 5px;
+}
+.hello{
+    position: absolute;
+    top:1100px;
+    left:-10px;
+   
+ 
+  }
+.haa{
+    
+    background-color:white;
+    position: fixed;
+    width:1300px;
+    left : 0px;
+    top:-1;
+    z-index: 1;
+}
+.photo_loader{
+    position:absolute;
+    top:-35px;
+    left:200px;
+    width:1500px;
+    height:500px;
+    background: url(av1.jpg);
+    background-repeat: no-repeat;
+    background-size: 1350px 800px;
+    left:0px;
+    right:0px;
+    z-index: -1;
+    margin: 100px auto;
+    animation:slide 20s infinite;
+}
+@keyframes slide{
+    25%{
+        background: url(av2.jpg);
+        background-repeat: no-repeat;
+        background-size: 1350px 800px;
+        left:0px;
+        right:0px;
+        
+    
+        
+    }
+    50%{
+        background: url(av3.jpg);
+        background-repeat: no-repeat;
+        background-size: 1350px 800px;
+        left:0px;
+        
+    }
+    70%{
+        background: url(av4.jpg);
+        background-repeat: no-repeat;
+        background-size: 1350px 800px;
+        left:0px;
+       
+    }
+    100%{
+        background: url(av5.jpg);
+        background-repeat: no-repeat;
+        background-size: 1350px 800px;
+        left:0px;
+        
+      
+    }
+    
+}
+
+
+
+
+
+  
+  
+
+  
+
+  
+ 
+  

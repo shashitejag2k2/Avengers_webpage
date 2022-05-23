@@ -1,0 +1,98 @@
+body{
+    background-color: black;
+}
+div.BRAIN {
+    position:absolute;
+    padding: 20px;
+    top:150px;
+    left:700px;
+    width: 150px; 
+    background-color:  #4CAF50;
+    animation-name: b;
+    animation-duration: 2s;}
+    @keyframes b {
+        from {width: 0px;}
+        to {width:150px;}
+      }
+    
+
+
+div.MUSCLE {
+    width: 500px; 
+    background-color:
+    #2196F3;
+    padding: 20px;
+    top:250px;
+    position:absolute;
+    left:700px;
+    animation-name: m;
+    animation-duration: 2s;}
+    @keyframes m{
+        from {width: 0px;}
+        to {width: 500px;}
+      }
+
+
+div.TECH{
+    width: 200px; 
+    background-color: 
+    #f44336;
+    padding: 20px;
+    top:350px;
+    position:absolute;
+    left:700px;
+    animation-name: t;
+    animation-duration: 2s;}
+    @keyframes t {
+        from {width: 0px;}
+        to {width: 200px;}
+      }
+
+
+div.POWER{
+    
+   
+    background-color: 
+    #808080;
+    padding: 20px;
+    top:450px;
+    position:absolute;
+    left:700px;
+    width: 500px;
+    animation-name: p;
+    animation-duration: 2s;}
+    @keyframes p {
+        from {width: 0px;}
+        to {width: 500px;}
+      }
+   h1{
+       
+       color: rgb(255, 255, 255);
+       position: absolute;
+       top:650px;
+       width:1300px;
+   }
+   div.matter2{
+    position: absolute;
+    top: 800px;
+    left:700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+    border: 5px solid  rgb(67, 145, 218);
+    padding: 120px;
+    margin: 10px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size:20px;
+    
+   }
+   iframe{ 
+       top:1350px;
+       left:400px;
+       position: absolute;
+       border:5px solid rgb(67, 145, 218);
+
+   }
+
